@@ -2,10 +2,10 @@
   "name": "student-management-app",
   "version": "1.0.0",
   "description": "Sistema de gestão acadêmica com cadastro de alunos e gerenciamento de notas",
-  "main": "index.js",
+  "main": "students.js",
   "type": "module",
   "scripts": {
-    "test": "jest"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "keywords": [
     "students",
